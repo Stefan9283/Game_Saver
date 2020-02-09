@@ -40,7 +40,7 @@ else
 	mkdir SAVES/$name/$dirname
 	cp "$dir"/* SAVES/$name/$dirname/ -r
 	#echo -e $dir SAVES/$name/$dirname
-	echo -e "Game was successfully saved"\n
+	echo -e "Game was successfully saved"
 fi
 
 

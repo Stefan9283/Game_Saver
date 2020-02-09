@@ -10,8 +10,8 @@ year=$(date | tr -s " " | cut -f6 -d " ")
 day=$(date | tr -s " " | cut -f3 -d " ")
 month=$(date | tr -s " " | cut -f2 -d " ")
 clock=$(date | tr -s " " | cut -f4 -d " ")
-
-dirname=${year}_$day${month}_$clock
+hostname=$(hostname)
+dirname=${year}_$day${month}_${clock}_$hostname
 for i in $(cat list)
 do
 	#echo $i

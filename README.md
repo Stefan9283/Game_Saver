@@ -16,6 +16,7 @@ In case spaces are included they **must** be replaced with the keyword SPACE.
 2. Inside the script the **PREFIX** variable must be changed if it doesn't match your path for the C: partition root.
 
 (if all the modifications were done from inside the shell this step can be skipped)
+
 3. The command "dos2unix backup.sh list" must be run.
 
 

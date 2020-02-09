@@ -15,7 +15,7 @@ dirname=${year}_$day${month}_${clock}_$hostname
 for i in $(cat list)
 do
 	#echo $i
-	dir=$(echo $i  | cut -f1 -d / | sed 's/\\/\//g' | sed "s|C:|${PREFIX}|g" | sed 's/SPACE/\ /g')
+	dir=$(echo $i  | cut -f1 -d / | sed 's/\\/\//g' | sed "s|C:|${PREFIX}|g" | sed 's/[SPACE]/\ /g')
 	name=$(echo $i  | cut -f2 -d /)
 	echo $name
 	if ls SAVES/$name > /dev/null; 
@@ -47,5 +47,3 @@ fi
 
 
 done
-
-#git push

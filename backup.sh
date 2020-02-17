@@ -33,13 +33,12 @@ lastsavedir=$(ls SAVES/$name |sort  | tail -n 1 | tr -s " " | cut -f9 -d " ")
 #echo SAVES/$name/$lastsavedir
 #echo $dir
 
-if [ $(diff SAVES/"$name"/"$lastsavedir" "$dir" | grep "Only" | wc -l) == 0 ] #ceva gresit aici
+if [ $(diff SAVES/"$name"/"$lastsavedir" "$dir" | grep "Only" | wc -l) == 0 ] 
 then
 	echo "Your last save is the same as this one"
 else
 	mkdir SAVES/$name/$dirname
 	cp "$dir"/* SAVES/$name/$dirname/ -r
-	#echo -e $dir SAVES/$name/$dirname
 	echo -e "Game was successfully saved"
 fi
 

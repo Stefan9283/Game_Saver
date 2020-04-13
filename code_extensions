@@ -1,6 +1,9 @@
 code --install-extension ahmadawais.shades-of-purple
 code --install-extension austin.code-gnu-global
+code --install-extension avalos.vs-memes
+code --install-extension BeardedBear.beardedtheme
 code --install-extension christian-kohler.path-intellisense
+code --install-extension Compulim.vscode-clock
 code --install-extension eetami.whitespace-formatter
 code --install-extension Endormi.2077-theme
 code --install-extension Gaulomatic.VSCodeExpressiveTheme

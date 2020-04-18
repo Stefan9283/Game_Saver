@@ -1,22 +1,3 @@
-code --install-extension ahmadawais.shades-of-purple
-code --install-extension arashmidos.kill-comments
-code --install-extension austin.code-gnu-global
-code --install-extension avalos.vs-memes
-code --install-extension BeardedBear.beardedtheme
-code --install-extension christian-kohler.path-intellisense
-code --install-extension Compulim.vscode-clock
-code --install-extension eetami.whitespace-formatter
-code --install-extension Endormi.2077-theme
-code --install-extension Gaulomatic.VSCodeExpressiveTheme
-code --install-extension jbelford.cyberpunk-plus
-code --install-extension liviuschera.noctis
-code --install-extension mariorodeghiero.vue-theme
-code --install-extension max-SS.Cyberpunk
-code --install-extension ms-vscode.cpptools
-code --install-extension ryu1kn.text-marker
-code --install-extension sdras.night-owl
-code --install-extension softwaredotcom.swdc-vscode
-code --install-extension tinkertrain.theme-panda
-code --install-extension toasty-technologies.octave
-code --install-extension wesbos.theme-cobalt2
-code --install-extension ybaumes.highlight-trailing-white-spaces
+code --install-extension Updating VS Code Server to version ff915844119ce9485abfe8aa9076ec76b5300ddd
+code --install-extension Removing previous installation...
+code --install-extension Installing VS Code Server for x64 (ff915844119ce9485abfe8aa9076ec76b5300ddd)

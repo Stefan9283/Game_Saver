@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 code --install-extension ahmadawais.shades-of-purple
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension austin.code-gnu-global
@@ -23,3 +24,8 @@ code --install-extension toasty-technologies.octave
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension wesbos.theme-cobalt2
 code --install-extension ybaumes.highlight-trailing-white-spaces
+=======
+code --install-extension Updating VS Code Server to version ff915844119ce9485abfe8aa9076ec76b5300ddd
+code --install-extension Removing previous installation...
+code --install-extension Installing VS Code Server for x64 (ff915844119ce9485abfe8aa9076ec76b5300ddd)
+>>>>>>> 8cb927ac36123d4a1eafb00cdaf12f68e33d5fc1

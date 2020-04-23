@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 code --install-extension ahmadawais.shades-of-purple
 code --install-extension apjanke.octave-hacking
 code --install-extension austin.code-gnu-global
@@ -22,3 +23,6 @@ code --install-extension toasty-technologies.octave
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension wesbos.theme-cobalt2
 code --install-extension ybaumes.highlight-trailing-white-spaces
+=======
+code --install-extension At least one file or folder must be provided.
+>>>>>>> 0ffb2f99590a1df59143a1497e8afcf34de84e1b

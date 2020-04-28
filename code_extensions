@@ -14,6 +14,7 @@ code --install-extension ms-vscode.cpptools
 code --install-extension Nuuf.theme-hackershaze
 code --install-extension ryu1kn.text-marker
 code --install-extension sdras.night-owl
+code --install-extension Shan.code-settings-sync
 code --install-extension shardulm94.trailing-spaces
 code --install-extension softwaredotcom.swdc-vscode
 code --install-extension tinkertrain.theme-panda

@@ -1,32 +1,17 @@
 code --install-extension ahmadawais.shades-of-purple
-<<<<<<< HEAD
 code --install-extension akamud.vscode-theme-onedark
-=======
-code --install-extension apjanke.octave-hacking
->>>>>>> 656b6a613f225ae2864fc39451fcd1dcc55109f4
 code --install-extension austin.code-gnu-global
 code --install-extension christian-kohler.path-intellisense
 code --install-extension Endormi.2077-theme
 code --install-extension formulahendry.code-runner
-<<<<<<< HEAD
 code --install-extension Gaulomatic.VSCodeExpressiveTheme
 code --install-extension jbelford.cyberpunk-plus
-=======
-code --install-extension frhtylcn.pythonsnippets
-code --install-extension Gaulomatic.VSCodeExpressiveTheme
-code --install-extension jbelford.cyberpunk-plus
-code --install-extension jdinhlife.gruvbox
->>>>>>> 656b6a613f225ae2864fc39451fcd1dcc55109f4
 code --install-extension liviuschera.noctis
 code --install-extension mariorodeghiero.vue-theme
 code --install-extension max-SS.Cyberpunk
 code --install-extension ms-python.python
 code --install-extension ms-vscode.cpptools
-<<<<<<< HEAD
 code --install-extension Nuuf.theme-hackershaze
-=======
-code --install-extension redhat.java
->>>>>>> 656b6a613f225ae2864fc39451fcd1dcc55109f4
 code --install-extension ryu1kn.text-marker
 code --install-extension sdras.night-owl
 code --install-extension Shan.code-settings-sync
@@ -36,8 +21,3 @@ code --install-extension tinkertrain.theme-panda
 code --install-extension toasty-technologies.octave
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension wesbos.theme-cobalt2
-<<<<<<< HEAD
-=======
-code --install-extension ybaumes.highlight-trailing-white-spaces
-code --install-extension zhuangtongfa.material-theme
->>>>>>> 656b6a613f225ae2864fc39451fcd1dcc55109f4

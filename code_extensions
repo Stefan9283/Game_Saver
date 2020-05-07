@@ -11,6 +11,7 @@ code --install-extension jdinhlife.gruvbox
 code --install-extension liviuschera.noctis
 code --install-extension mariorodeghiero.vue-theme
 code --install-extension max-SS.Cyberpunk
+code --install-extension maximetinu.identical-sublime-monokai-csharp-theme-colorizer
 code --install-extension ms-python.python
 code --install-extension ms-vscode.cpptools
 code --install-extension redhat.java

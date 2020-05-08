@@ -9,7 +9,6 @@ code --install-extension jbelford.cyberpunk-plus
 code --install-extension liviuschera.noctis
 code --install-extension mariorodeghiero.vue-theme
 code --install-extension max-SS.Cyberpunk
-code --install-extension maximetinu.identical-sublime-monokai-csharp-theme-colorizer
 code --install-extension ms-python.python
 code --install-extension ms-vscode.cpptools
 code --install-extension Nuuf.theme-hackershaze
@@ -22,3 +21,4 @@ code --install-extension tinkertrain.theme-panda
 code --install-extension toasty-technologies.octave
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension wesbos.theme-cobalt2
+code --install-extension yurihs.sublime-vscode-theme

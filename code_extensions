@@ -1,3 +1,1 @@
-code --install-extension Updating VS Code Server to version ff915844119ce9485abfe8aa9076ec76b5300ddd
-code --install-extension Removing previous installation...
-code --install-extension Installing VS Code Server for x64 (ff915844119ce9485abfe8aa9076ec76b5300ddd)
+code --install-extension

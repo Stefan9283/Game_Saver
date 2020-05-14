@@ -1,1 +1,32 @@
+<<<<<<< HEAD
 code --install-extension
+=======
+code --install-extension ahmadawais.shades-of-purple
+code --install-extension apjanke.octave-hacking
+code --install-extension austin.code-gnu-global
+code --install-extension christian-kohler.path-intellisense
+code --install-extension Endormi.2077-theme
+code --install-extension formulahendry.code-runner
+code --install-extension frhtylcn.pythonsnippets
+code --install-extension Gaulomatic.VSCodeExpressiveTheme
+code --install-extension jbelford.cyberpunk-plus
+code --install-extension jdinhlife.gruvbox
+code --install-extension liviuschera.noctis
+code --install-extension mariorodeghiero.vue-theme
+code --install-extension max-SS.Cyberpunk
+code --install-extension maximetinu.identical-sublime-monokai-csharp-theme-colorizer
+code --install-extension ms-python.python
+code --install-extension ms-vscode.cpptools
+code --install-extension redhat.java
+code --install-extension ryu1kn.text-marker
+code --install-extension sdras.night-owl
+code --install-extension Shan.code-settings-sync
+code --install-extension shardulm94.trailing-spaces
+code --install-extension softwaredotcom.swdc-vscode
+code --install-extension tinkertrain.theme-panda
+code --install-extension toasty-technologies.octave
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension wesbos.theme-cobalt2
+code --install-extension ybaumes.highlight-trailing-white-spaces
+code --install-extension zhuangtongfa.material-theme
+>>>>>>> 7c0bc53a7b6b3137037a16eff7ddde6509976868

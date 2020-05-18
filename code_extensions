@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 code --install-extension
+=======
+code --install-extension At least one file or folder must be provided.
+>>>>>>> adb446ff52717658806e0242001c4aeed8cf3653

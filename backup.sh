@@ -25,6 +25,7 @@ else
 	mkdir SAVES/$name
 	fi
 
+echo '''
 #echo $name $dir
 
 #de comparat ultima salvare inainte de copiere
@@ -42,7 +43,7 @@ else
 	echo -e "Game was successfully saved"
 fi
 
-
+''' > /dev/null
 
 
 done

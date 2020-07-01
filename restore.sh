@@ -1,38 +1,35 @@
 #! /usr/bin/bash
 
-#WORK IN PROGRESS
-
-PREFIX=/mnt/c
-
-#PATH ON WIN 
-
-for i in $(cat list)
+while IFS= read -r i
 do
-	#echo $i
-	dir=$(echo $i  | cut -f1 -d / | sed 's/\\/\//g' | sed "s|C:|${PREFIX}|g" | sed 's/\[SPACE\]/\ /g')
-	name=$(echo $i  | cut -f2 -d /)
-	echo $name
-	if ls $dir > /dev/null; 
-then 
-	echo "Dir found"
-else 
-	mkdir $dir
-	fi
+  	Game_Name=$(echo $i | cut -d "~" -f1)
+  	Save_Location=$(wslpath -a "$(echo $i | cut -d "~" -f2)")
+	Last_Save=$(ls SAVES/$Game_Name | sort  | tail -n 1 | tr -s " " | cut -f9 -d " ")
+	echo $Save_Location $Game_Name $Last_Save
 
 
-lastsavedir=$(ls SAVES/$name |sort  | tail -n 1)
+		ls "$Save_Location" &> /dev/null
+		if [[ $? -gt 0 ]];
+		then
+			mkdir -p "$Save_Location" &> /dev/null
+			cp "SAVES/$Game_Name/$Last_Save"/* "$Save_Location" -r
+			echo -e "\e[48;5;88m$Game_Name had no saves on your computer. \e[0m"
+		else
 
+			if [[ $(diff "SAVES/$Game_Name/$Last_Save" "$Save_Location" | grep "Only" | wc -l) == 0 ]];
+			then
+				echo -e "\e[48;5;33mThe last save is identical with the current one for $Game_Name\e[0m"
+			else			
+				mkdir -p "$Save_Location" &> /dev/null
+				rm -r "$Save_Location"/* &> /dev/null
+				cp "SAVES/$Game_Name/$Last_Save"/* "$Save_Location" -r
+				echo -e "\e[48;5;28mDifferent saves for $Game_Name\e[0m"
+			fi 
+		fi
+	echo -e "################################################"
 
-if [ $(diff SAVES/"$name"/"$lastsavedir" "$dir" | grep "Only" | wc -l) == 0 ]
-then
-	echo "Your last save is the same as this one"
-else
 	
-	cp SAVES/$name/$lastsavedir/ "$dir"/ -r
-	echo -e "Game was restored saved"
-fi
+break
+done < list
 
 
-
-
-done

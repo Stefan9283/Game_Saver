@@ -28,13 +28,15 @@ do
 		then
 			echo -e "\e[48;5;88m$Game_Name has no saves on your computer\e[0m"
 		else
+			num_of_differences=$(diff -r "SAVES/$Game_Name/$Last_Save" "$Save_Location" | grep "Only" | wc -l)
 
-			if [[ $(diff "SAVES/$Game_Name/$Last_Save" "$Save_Location" | grep "Only" | wc -l) == 0 ]];
+			if [[ $num_of_differences == 0 ]];
 			then
 				echo -e "\e[48;5;33mThe last save is identical with the current one for $Game_Name\e[0m"
 			else			
 				mkdir -p $Backup_Dir_Name
-				cp -r "$Save_Location"/*  $SAVES/$Game_Name/Backup_Dir_Name
+				
+				cp -r "$Save_Location"  SAVES/$Game_Name/$Backup_Dir_Name
 				echo -e "\e[48;5;28mDifferent saves for $Game_Name\e[0m"
 			fi 
 		fi
